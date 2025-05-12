@@ -1,0 +1,15 @@
+{
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "A simple web application running in a Docker container",
+    "author": "Manav Mehta <s223608412@gmail.com>",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "docker_web_app": "file:",
+        "express": "^4.16.1",
+        "mongodb": "^6.16.0"
+    }
+}
